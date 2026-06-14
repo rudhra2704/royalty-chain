@@ -1,0 +1,1166 @@
+  FULL SYSTEM DEMO — Module outputs only
+  ============================================================
+
+  [1/8] B+ Tree — License Registry
+
+  +-----------------------------------------------------+
+  |  LICENSE REGISTRY  |  Data Structure: B+ TREE      |
+  +-----------------------------------------------------+
+  Disk-backed index | Operations: insert, search, scan
+
+  [LIC-001] God's Plan - Drake
+       Publisher: OVO Sound  |  Royalty: 19%
+  [LIC-002] HUMBLE. - Kendrick Lamar
+       Publisher: TDE  |  Royalty: 16%
+  [LIC-003] No Role Modelz - J. Cole
+       Publisher: Dreamville  |  Royalty: 12%
+  [LIC-004] 151 Rum - JID
+       Publisher: Dreamville  |  Royalty: 8%
+  [LIC-005] Surround Sound - JID
+       Publisher: Dreamville  |  Royalty: 9%
+  [LIC-006] Middle Child - J. Cole
+       Publisher: Dreamville  |  Royalty: 13%
+  [LIC-007] Alright - Kendrick Lamar
+       Publisher: TDE  |  Royalty: 15%
+  [LIC-008] Hotline Bling - Drake
+       Publisher: OVO Sound  |  Royalty: 18%
+  [LIC-009] Praise The Lord - ASAP Rocky
+       Publisher: AWGE  |  Royalty: 11%
+  [LIC-010] L$D - ASAP Rocky
+       Publisher: AWGE  |  Royalty: 7%
+  [LIC-011] SICKO MODE - Travis Scott
+       Publisher: Cactus Jack  |  Royalty: 17%
+  [LIC-012] goosebumps - Travis Scott
+       Publisher: Cactus Jack  |  Royalty: 14%
+  [LIC-013] Thinkin Bout You - Frank Ocean
+       Publisher: Blonded  |  Royalty: 22%
+  [LIC-014] Nights - Frank Ocean
+       Publisher: Blonded  |  Royalty: 21%
+  [LIC-015] Boyz-N-The-Hood - Eazy-E
+       Publisher: Ruthless Records  |  Royalty: 6%
+  [LIC-016] Real Muthaphuckkin G's - Eazy-E
+       Publisher: Ruthless Records  |  Royalty: 5%
+  Registry saved to data/licenses.dat
+
+  [2/8] Stack — Revocation Log
+
+  +-----------------------------------------------------+
+  |  REVOCATION LOG  |  Data Structure: STACK (LIFO)  |
+  +-----------------------------------------------------+
+  Operations: push() = log clearance | rollback() = pop()
+
+  1. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  2. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  3. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  4. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  5. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  6. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  7. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  8. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  9. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  10. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  11. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  12. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  13. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  14. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  15. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  16. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  17. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  18. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  19. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  20. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  21. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  22. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  23. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  24. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  25. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  26. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  27. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  28. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  29. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  30. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  31. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  32. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  33. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  34. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  35. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  36. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  37. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  38. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  39. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  40. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  41. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  42. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  43. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  44. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  45. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  46. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  47. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  48. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  49. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  50. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  51. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  52. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  53. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  54. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  55. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  56. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  57. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  58. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  59. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  60. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  61. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  62. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  63. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  64. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  65. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  66. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  67. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  68. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  69. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  70. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  71. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  72. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  73. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  74. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  75. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  76. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  77. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  78. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  79. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  80. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  81. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  82. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  83. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  84. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  85. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  86. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  87. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  88. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  89. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  90. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  91. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  92. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  93. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  94. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  95. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  96. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  97. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  98. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  99. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  100. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  101. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  102. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  103. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  104. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  105. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  106. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  107. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+
+  >> Rolling back most recent clearance (pop)...
+  Rolled back: APPROVED (CLR-112)
+
+  +-----------------------------------------------------+
+  |  REVOCATION LOG  |  Data Structure: STACK (LIFO)  |
+  +-----------------------------------------------------+
+  Operations: push() = log clearance | rollback() = pop()
+
+  1. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  2. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  3. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  4. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  5. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  6. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  7. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  8. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  9. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  10. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  11. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  12. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  13. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  14. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  15. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  16. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  17. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  18. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  19. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  20. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  21. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  22. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  23. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  24. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  25. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  26. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  27. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  28. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  29. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  30. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  31. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  32. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  33. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  34. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  35. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  36. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  37. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  38. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  39. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  40. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  41. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  42. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  43. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  44. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  45. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  46. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  47. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  48. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  49. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  50. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  51. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  52. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  53. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  54. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  55. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  56. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  57. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  58. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  59. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  60. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  61. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  62. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  63. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  64. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  65. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  66. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  67. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  68. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  69. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  70. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  71. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  72. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  73. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  74. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  75. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  76. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  77. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  78. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  79. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  80. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  81. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  82. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  83. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  84. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  85. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  86. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  87. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  88. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  89. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  90. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  91. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  92. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  93. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  94. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  95. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  96. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  97. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  98. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  99. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  100. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  101. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  102. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  103. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  104. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  105. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  106. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+
+  [3/8] Queue — Transfer Verification
+
+  +-----------------------------------------------------+
+  |  TRANSFER QUEUE  |  Data Structure: QUEUE (FIFO)   |
+  +-----------------------------------------------------+
+  Operations: enqueue() = add back | processNext() = serve front
+
+  1. [TXN-001] God's Plan: OVO Sound -> Spotify (PENDING)
+  2. [TXN-002] HUMBLE.: TDE -> Apple Music (PENDING)
+  3. [TXN-003] No Role Modelz: Dreamville -> YouTube Music (PENDING)
+  4. [TXN-004] 151 Rum: Dreamville -> Amazon Music (PENDING)
+  5. [TXN-005] Hotline Bling: OVO Sound -> Spotify (PENDING)
+  6. [TXN-006] Praise The Lord: AWGE -> Apple Music (PENDING)
+  7. [TXN-007] SICKO MODE: Cactus Jack -> Spotify (PENDING)
+  8. [TXN-008] Thinkin Bout You: Blonded -> YouTube Music (PENDING)
+  9. [TXN-009] Boyz-N-The-Hood: Ruthless Records -> Amazon Music (PENDING)
+  10. [TXN-010] goosebumps: Cactus Jack -> Spotify (PENDING)
+  11. [TXN-011] Nights: Blonded -> Apple Music (PENDING)
+  12. [TXN-012] Real Muthaphuckkin G's: Ruthless Records -> Amazon Music (PENDING)
+  13. [TXN-001] God's Plan: OVO Sound -> Spotify (PENDING)
+  14. [TXN-002] HUMBLE.: TDE -> Apple Music (PENDING)
+  15. [TXN-003] No Role Modelz: Dreamville -> YouTube Music (PENDING)
+  16. [TXN-004] 151 Rum: Dreamville -> Amazon Music (PENDING)
+  17. [TXN-005] Hotline Bling: OVO Sound -> Spotify (PENDING)
+  18. [TXN-006] Praise The Lord: AWGE -> Apple Music (PENDING)
+  19. [TXN-007] SICKO MODE: Cactus Jack -> Spotify (PENDING)
+  20. [TXN-008] Thinkin Bout You: Blonded -> YouTube Music (PENDING)
+  21. [TXN-009] Boyz-N-The-Hood: Ruthless Records -> Amazon Music (PENDING)
+  22. [TXN-010] goosebumps: Cactus Jack -> Spotify (PENDING)
+  23. [TXN-011] Nights: Blonded -> Apple Music (PENDING)
+  24. [TXN-012] Real Muthaphuckkin G's: Ruthless Records -> Amazon Music (PENDING)
+  25. [TXN-001] God's Plan: OVO Sound -> Spotify (PENDING)
+  26. [TXN-002] HUMBLE.: TDE -> Apple Music (PENDING)
+  27. [TXN-003] No Role Modelz: Dreamville -> YouTube Music (PENDING)
+  28. [TXN-004] 151 Rum: Dreamville -> Amazon Music (PENDING)
+  29. [TXN-005] Hotline Bling: OVO Sound -> Spotify (PENDING)
+  30. [TXN-006] Praise The Lord: AWGE -> Apple Music (PENDING)
+  31. [TXN-007] SICKO MODE: Cactus Jack -> Spotify (PENDING)
+  32. [TXN-008] Thinkin Bout You: Blonded -> YouTube Music (PENDING)
+  33. [TXN-009] Boyz-N-The-Hood: Ruthless Records -> Amazon Music (PENDING)
+  34. [TXN-010] goosebumps: Cactus Jack -> Spotify (PENDING)
+  35. [TXN-011] Nights: Blonded -> Apple Music (PENDING)
+  36. [TXN-012] Real Muthaphuckkin G's: Ruthless Records -> Amazon Music (PENDING)
+  37. [TXN-001] God's Plan: OVO Sound -> Spotify (PENDING)
+  38. [TXN-002] HUMBLE.: TDE -> Apple Music (PENDING)
+  39. [TXN-003] No Role Modelz: Dreamville -> YouTube Music (PENDING)
+  40. [TXN-004] 151 Rum: Dreamville -> Amazon Music (PENDING)
+  41. [TXN-005] Hotline Bling: OVO Sound -> Spotify (PENDING)
+  42. [TXN-006] Praise The Lord: AWGE -> Apple Music (PENDING)
+  43. [TXN-007] SICKO MODE: Cactus Jack -> Spotify (PENDING)
+  44. [TXN-008] Thinkin Bout You: Blonded -> YouTube Music (PENDING)
+  45. [TXN-009] Boyz-N-The-Hood: Ruthless Records -> Amazon Music (PENDING)
+  46. [TXN-010] goosebumps: Cactus Jack -> Spotify (PENDING)
+  47. [TXN-011] Nights: Blonded -> Apple Music (PENDING)
+  48. [TXN-012] Real Muthaphuckkin G's: Ruthless Records -> Amazon Music (PENDING)
+  49. [TXN-001] God's Plan: OVO Sound -> Spotify (PENDING)
+  50. [TXN-002] HUMBLE.: TDE -> Apple Music (PENDING)
+  51. [TXN-003] No Role Modelz: Dreamville -> YouTube Music (PENDING)
+  52. [TXN-004] 151 Rum: Dreamville -> Amazon Music (PENDING)
+  53. [TXN-005] Hotline Bling: OVO Sound -> Spotify (PENDING)
+  54. [TXN-006] Praise The Lord: AWGE -> Apple Music (PENDING)
+  55. [TXN-007] SICKO MODE: Cactus Jack -> Spotify (PENDING)
+  56. [TXN-008] Thinkin Bout You: Blonded -> YouTube Music (PENDING)
+  57. [TXN-009] Boyz-N-The-Hood: Ruthless Records -> Amazon Music (PENDING)
+  58. [TXN-010] goosebumps: Cactus Jack -> Spotify (PENDING)
+  59. [TXN-011] Nights: Blonded -> Apple Music (PENDING)
+  60. [TXN-012] Real Muthaphuckkin G's: Ruthless Records -> Amazon Music (PENDING)
+  61. [TXN-001] God's Plan: OVO Sound -> Spotify (PENDING)
+  62. [TXN-002] HUMBLE.: TDE -> Apple Music (PENDING)
+  63. [TXN-003] No Role Modelz: Dreamville -> YouTube Music (PENDING)
+  64. [TXN-004] 151 Rum: Dreamville -> Amazon Music (PENDING)
+  65. [TXN-005] Hotline Bling: OVO Sound -> Spotify (PENDING)
+  66. [TXN-006] Praise The Lord: AWGE -> Apple Music (PENDING)
+  67. [TXN-007] SICKO MODE: Cactus Jack -> Spotify (PENDING)
+  68. [TXN-008] Thinkin Bout You: Blonded -> YouTube Music (PENDING)
+  69. [TXN-009] Boyz-N-The-Hood: Ruthless Records -> Amazon Music (PENDING)
+  70. [TXN-010] goosebumps: Cactus Jack -> Spotify (PENDING)
+  71. [TXN-011] Nights: Blonded -> Apple Music (PENDING)
+  72. [TXN-012] Real Muthaphuckkin G's: Ruthless Records -> Amazon Music (PENDING)
+
+--- Processing Transfer Queue ---
+  Processed: TXN-001 - God's Plan transferred from OVO Sound to Spotify
+  Processed: TXN-002 - HUMBLE. transferred from TDE to Apple Music
+  Processed: TXN-003 - No Role Modelz transferred from Dreamville to YouTube Music
+  Processed: TXN-004 - 151 Rum transferred from Dreamville to Amazon Music
+  Processed: TXN-005 - Hotline Bling transferred from OVO Sound to Spotify
+  Processed: TXN-006 - Praise The Lord transferred from AWGE to Apple Music
+  Processed: TXN-007 - SICKO MODE transferred from Cactus Jack to Spotify
+  Processed: TXN-008 - Thinkin Bout You transferred from Blonded to YouTube Music
+  Processed: TXN-009 - Boyz-N-The-Hood transferred from Ruthless Records to Amazon Music
+  Processed: TXN-010 - goosebumps transferred from Cactus Jack to Spotify
+  Processed: TXN-011 - Nights transferred from Blonded to Apple Music
+  Processed: TXN-012 - Real Muthaphuckkin G's transferred from Ruthless Records to Amazon Music
+  Processed: TXN-001 - God's Plan transferred from OVO Sound to Spotify
+  Processed: TXN-002 - HUMBLE. transferred from TDE to Apple Music
+  Processed: TXN-003 - No Role Modelz transferred from Dreamville to YouTube Music
+  Processed: TXN-004 - 151 Rum transferred from Dreamville to Amazon Music
+  Processed: TXN-005 - Hotline Bling transferred from OVO Sound to Spotify
+  Processed: TXN-006 - Praise The Lord transferred from AWGE to Apple Music
+  Processed: TXN-007 - SICKO MODE transferred from Cactus Jack to Spotify
+  Processed: TXN-008 - Thinkin Bout You transferred from Blonded to YouTube Music
+  Processed: TXN-009 - Boyz-N-The-Hood transferred from Ruthless Records to Amazon Music
+  Processed: TXN-010 - goosebumps transferred from Cactus Jack to Spotify
+  Processed: TXN-011 - Nights transferred from Blonded to Apple Music
+  Processed: TXN-012 - Real Muthaphuckkin G's transferred from Ruthless Records to Amazon Music
+  Processed: TXN-001 - God's Plan transferred from OVO Sound to Spotify
+  Processed: TXN-002 - HUMBLE. transferred from TDE to Apple Music
+  Processed: TXN-003 - No Role Modelz transferred from Dreamville to YouTube Music
+  Processed: TXN-004 - 151 Rum transferred from Dreamville to Amazon Music
+  Processed: TXN-005 - Hotline Bling transferred from OVO Sound to Spotify
+  Processed: TXN-006 - Praise The Lord transferred from AWGE to Apple Music
+  Processed: TXN-007 - SICKO MODE transferred from Cactus Jack to Spotify
+  Processed: TXN-008 - Thinkin Bout You transferred from Blonded to YouTube Music
+  Processed: TXN-009 - Boyz-N-The-Hood transferred from Ruthless Records to Amazon Music
+  Processed: TXN-010 - goosebumps transferred from Cactus Jack to Spotify
+  Processed: TXN-011 - Nights transferred from Blonded to Apple Music
+  Processed: TXN-012 - Real Muthaphuckkin G's transferred from Ruthless Records to Amazon Music
+  Processed: TXN-001 - God's Plan transferred from OVO Sound to Spotify
+  Processed: TXN-002 - HUMBLE. transferred from TDE to Apple Music
+  Processed: TXN-003 - No Role Modelz transferred from Dreamville to YouTube Music
+  Processed: TXN-004 - 151 Rum transferred from Dreamville to Amazon Music
+  Processed: TXN-005 - Hotline Bling transferred from OVO Sound to Spotify
+  Processed: TXN-006 - Praise The Lord transferred from AWGE to Apple Music
+  Processed: TXN-007 - SICKO MODE transferred from Cactus Jack to Spotify
+  Processed: TXN-008 - Thinkin Bout You transferred from Blonded to YouTube Music
+  Processed: TXN-009 - Boyz-N-The-Hood transferred from Ruthless Records to Amazon Music
+  Processed: TXN-010 - goosebumps transferred from Cactus Jack to Spotify
+  Processed: TXN-011 - Nights transferred from Blonded to Apple Music
+  Processed: TXN-012 - Real Muthaphuckkin G's transferred from Ruthless Records to Amazon Music
+  Processed: TXN-001 - God's Plan transferred from OVO Sound to Spotify
+  Processed: TXN-002 - HUMBLE. transferred from TDE to Apple Music
+  Processed: TXN-003 - No Role Modelz transferred from Dreamville to YouTube Music
+  Processed: TXN-004 - 151 Rum transferred from Dreamville to Amazon Music
+  Processed: TXN-005 - Hotline Bling transferred from OVO Sound to Spotify
+  Processed: TXN-006 - Praise The Lord transferred from AWGE to Apple Music
+  Processed: TXN-007 - SICKO MODE transferred from Cactus Jack to Spotify
+  Processed: TXN-008 - Thinkin Bout You transferred from Blonded to YouTube Music
+  Processed: TXN-009 - Boyz-N-The-Hood transferred from Ruthless Records to Amazon Music
+  Processed: TXN-010 - goosebumps transferred from Cactus Jack to Spotify
+  Processed: TXN-011 - Nights transferred from Blonded to Apple Music
+  Processed: TXN-012 - Real Muthaphuckkin G's transferred from Ruthless Records to Amazon Music
+  Processed: TXN-001 - God's Plan transferred from OVO Sound to Spotify
+  Processed: TXN-002 - HUMBLE. transferred from TDE to Apple Music
+  Processed: TXN-003 - No Role Modelz transferred from Dreamville to YouTube Music
+  Processed: TXN-004 - 151 Rum transferred from Dreamville to Amazon Music
+  Processed: TXN-005 - Hotline Bling transferred from OVO Sound to Spotify
+  Processed: TXN-006 - Praise The Lord transferred from AWGE to Apple Music
+  Processed: TXN-007 - SICKO MODE transferred from Cactus Jack to Spotify
+  Processed: TXN-008 - Thinkin Bout You transferred from Blonded to YouTube Music
+  Processed: TXN-009 - Boyz-N-The-Hood transferred from Ruthless Records to Amazon Music
+  Processed: TXN-010 - goosebumps transferred from Cactus Jack to Spotify
+  Processed: TXN-011 - Nights transferred from Blonded to Apple Music
+  Processed: TXN-012 - Real Muthaphuckkin G's transferred from Ruthless Records to Amazon Music
+  Total processed: 108
+
+  [4/8] Hash Table — Key Verification
+  Account ACC-DRAKE (Drake) - Key: PK-DRK-7X9F [ACTIVE]
+  Account ACC-ROCKY (ASAP Rocky) - Key: PK-ROK-4A7B [REVOKED]
+
+  [5/8] Max-Heap — Trade Rankings
+
+  +-----------------------------------------------------+
+  |  TRADE RANKINGS  |  Data Structure: MAX-HEAP       |
+  +-----------------------------------------------------+
+  Sorted by transaction volume (highest = root)
+
+  # 1 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 2 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 3 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 4 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 5 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 6 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 7 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 8 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 9 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  #10 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #11 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #12 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #13 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #14 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #15 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #16 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #17 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #18 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #19 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #20 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #21 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #22 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #23 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #24 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #25 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #26 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #27 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #28 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #29 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #30 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #31 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #32 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #33 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #34 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #35 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #36 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #37 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #38 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #39 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #40 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #41 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #42 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #43 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #44 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #45 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #46 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #47 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #48 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #49 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #50 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #51 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #52 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #53 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #54 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #55 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #56 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #57 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #58 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #59 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #60 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #61 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #62 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #63 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #64 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #65 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #66 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #67 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #68 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #69 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #70 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #71 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #72 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #73 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #74 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #75 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #76 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #77 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #78 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #79 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #80 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #81 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #82 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #83 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #84 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #85 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #86 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #87 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #88 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #89 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #90 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #91 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #92 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #93 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #94 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #95 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #96 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #97 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #98 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #99 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #100 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #101 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #102 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #103 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #104 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #105 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #106 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #107 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #108 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #109 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #110 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #111 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #112 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #113 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #114 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #115 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #116 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #117 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #118 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #119 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #120 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #121 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #122 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #123 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #124 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #125 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #126 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #127 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #128 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #129 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #130 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #131 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #132 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #133 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #134 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #135 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #136 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #137 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #138 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #139 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #140 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #141 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #142 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #143 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #144 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+
+  Range: 47,000 (low) -> 8,420,000 (high)
+
+  [6/8] Graph — Royalty Channels
+
+  +-----------------------------------------------------+
+  |  ROYALTY CHANNELS  |  Data Structure: GRAPH        |
+  +-----------------------------------------------------+
+  Weighted directed edges = distribution fee per hop
+
+  ASAP Rocky
+  AWGE
+    --> ASAP Rocky  (fee: $0.85)
+    --> ASAP Rocky  (fee: $0.85)
+    --> ASAP Rocky  (fee: $0.85)
+    --> ASAP Rocky  (fee: $0.85)
+    --> ASAP Rocky  (fee: $0.85)
+    --> ASAP Rocky  (fee: $0.85)
+    --> ASAP Rocky  (fee: $0.85)
+    --> ASAP Rocky  (fee: $0.85)
+    --> ASAP Rocky  (fee: $0.85)
+  Amazon Music
+    --> Dreamville  (fee: $2.00)
+    --> OVO Sound  (fee: $2.60)
+    --> Ruthless Records  (fee: $1.60)
+    --> Blonded  (fee: $2.80)
+    --> Global Rights Hub  (fee: $3.10)
+    --> Dreamville  (fee: $2.00)
+    --> OVO Sound  (fee: $2.60)
+    --> Ruthless Records  (fee: $1.60)
+    --> Blonded  (fee: $2.80)
+    --> Global Rights Hub  (fee: $3.10)
+    --> Dreamville  (fee: $2.00)
+    --> OVO Sound  (fee: $2.60)
+    --> Ruthless Records  (fee: $1.60)
+    --> Blonded  (fee: $2.80)
+    --> Global Rights Hub  (fee: $3.10)
+    --> Dreamville  (fee: $2.00)
+    --> OVO Sound  (fee: $2.60)
+    --> Ruthless Records  (fee: $1.60)
+    --> Blonded  (fee: $2.80)
+    --> Global Rights Hub  (fee: $3.10)
+    --> Dreamville  (fee: $2.00)
+    --> OVO Sound  (fee: $2.60)
+    --> Ruthless Records  (fee: $1.60)
+    --> Blonded  (fee: $2.80)
+    --> Global Rights Hub  (fee: $3.10)
+    --> Dreamville  (fee: $2.00)
+    --> OVO Sound  (fee: $2.60)
+    --> Ruthless Records  (fee: $1.60)
+    --> Blonded  (fee: $2.80)
+    --> Global Rights Hub  (fee: $3.10)
+    --> Dreamville  (fee: $2.00)
+    --> OVO Sound  (fee: $2.60)
+    --> Ruthless Records  (fee: $1.60)
+    --> Blonded  (fee: $2.80)
+    --> Global Rights Hub  (fee: $3.10)
+    --> Dreamville  (fee: $2.00)
+    --> OVO Sound  (fee: $2.60)
+    --> Ruthless Records  (fee: $1.60)
+    --> Blonded  (fee: $2.80)
+    --> Global Rights Hub  (fee: $3.10)
+    --> Dreamville  (fee: $2.00)
+    --> OVO Sound  (fee: $2.60)
+    --> Ruthless Records  (fee: $1.60)
+    --> Blonded  (fee: $2.80)
+    --> Global Rights Hub  (fee: $3.10)
+  Apple Music
+    --> OVO Sound  (fee: $2.20)
+    --> TDE  (fee: $2.80)
+    --> Dreamville  (fee: $2.50)
+    --> AWGE  (fee: $2.30)
+    --> Cactus Jack  (fee: $2.10)
+    --> Blonded  (fee: $3.60)
+    --> Ruthless Records  (fee: $2.90)
+    --> Global Rights Hub  (fee: $4.00)
+    --> OVO Sound  (fee: $2.20)
+    --> TDE  (fee: $2.80)
+    --> Dreamville  (fee: $2.50)
+    --> AWGE  (fee: $2.30)
+    --> Cactus Jack  (fee: $2.10)
+    --> Blonded  (fee: $3.60)
+    --> Ruthless Records  (fee: $2.90)
+    --> Global Rights Hub  (fee: $4.00)
+    --> OVO Sound  (fee: $2.20)
+    --> TDE  (fee: $2.80)
+    --> Dreamville  (fee: $2.50)
+    --> AWGE  (fee: $2.30)
+    --> Cactus Jack  (fee: $2.10)
+    --> Blonded  (fee: $3.60)
+    --> Ruthless Records  (fee: $2.90)
+    --> Global Rights Hub  (fee: $4.00)
+    --> OVO Sound  (fee: $2.20)
+    --> TDE  (fee: $2.80)
+    --> Dreamville  (fee: $2.50)
+    --> AWGE  (fee: $2.30)
+    --> Cactus Jack  (fee: $2.10)
+    --> Blonded  (fee: $3.60)
+    --> Ruthless Records  (fee: $2.90)
+    --> Global Rights Hub  (fee: $4.00)
+    --> OVO Sound  (fee: $2.20)
+    --> TDE  (fee: $2.80)
+    --> Dreamville  (fee: $2.50)
+    --> AWGE  (fee: $2.30)
+    --> Cactus Jack  (fee: $2.10)
+    --> Blonded  (fee: $3.60)
+    --> Ruthless Records  (fee: $2.90)
+    --> Global Rights Hub  (fee: $4.00)
+    --> OVO Sound  (fee: $2.20)
+    --> TDE  (fee: $2.80)
+    --> Dreamville  (fee: $2.50)
+    --> AWGE  (fee: $2.30)
+    --> Cactus Jack  (fee: $2.10)
+    --> Blonded  (fee: $3.60)
+    --> Ruthless Records  (fee: $2.90)
+    --> Global Rights Hub  (fee: $4.00)
+    --> OVO Sound  (fee: $2.20)
+    --> TDE  (fee: $2.80)
+    --> Dreamville  (fee: $2.50)
+    --> AWGE  (fee: $2.30)
+    --> Cactus Jack  (fee: $2.10)
+    --> Blonded  (fee: $3.60)
+    --> Ruthless Records  (fee: $2.90)
+    --> Global Rights Hub  (fee: $4.00)
+    --> OVO Sound  (fee: $2.20)
+    --> TDE  (fee: $2.80)
+    --> Dreamville  (fee: $2.50)
+    --> AWGE  (fee: $2.30)
+    --> Cactus Jack  (fee: $2.10)
+    --> Blonded  (fee: $3.60)
+    --> Ruthless Records  (fee: $2.90)
+    --> Global Rights Hub  (fee: $4.00)
+    --> OVO Sound  (fee: $2.20)
+    --> TDE  (fee: $2.80)
+    --> Dreamville  (fee: $2.50)
+    --> AWGE  (fee: $2.30)
+    --> Cactus Jack  (fee: $2.10)
+    --> Blonded  (fee: $3.60)
+    --> Ruthless Records  (fee: $2.90)
+    --> Global Rights Hub  (fee: $4.00)
+  Blonded
+    --> Frank Ocean  (fee: $0.75)
+    --> Frank Ocean  (fee: $0.75)
+    --> Frank Ocean  (fee: $0.75)
+    --> Frank Ocean  (fee: $0.75)
+    --> Frank Ocean  (fee: $0.75)
+    --> Frank Ocean  (fee: $0.75)
+    --> Frank Ocean  (fee: $0.75)
+    --> Frank Ocean  (fee: $0.75)
+    --> Frank Ocean  (fee: $0.75)
+  Cactus Jack
+    --> Travis Scott  (fee: $0.95)
+    --> Travis Scott  (fee: $0.95)
+    --> Travis Scott  (fee: $0.95)
+    --> Travis Scott  (fee: $0.95)
+    --> Travis Scott  (fee: $0.95)
+    --> Travis Scott  (fee: $0.95)
+    --> Travis Scott  (fee: $0.95)
+    --> Travis Scott  (fee: $0.95)
+    --> Travis Scott  (fee: $0.95)
+  Drake
+  Dreamville
+    --> J. Cole  (fee: $0.90)
+    --> JID  (fee: $0.80)
+    --> J. Cole  (fee: $0.90)
+    --> JID  (fee: $0.80)
+    --> J. Cole  (fee: $0.90)
+    --> JID  (fee: $0.80)
+    --> J. Cole  (fee: $0.90)
+    --> JID  (fee: $0.80)
+    --> J. Cole  (fee: $0.90)
+    --> JID  (fee: $0.80)
+    --> J. Cole  (fee: $0.90)
+    --> JID  (fee: $0.80)
+    --> J. Cole  (fee: $0.90)
+    --> JID  (fee: $0.80)
+    --> J. Cole  (fee: $0.90)
+    --> JID  (fee: $0.80)
+    --> J. Cole  (fee: $0.90)
+    --> JID  (fee: $0.80)
+  Eazy-E
+  Frank Ocean
+  Global Rights Hub
+    --> OVO Sound  (fee: $2.80)
+    --> Cactus Jack  (fee: $2.50)
+    --> AWGE  (fee: $2.20)
+    --> Blonded  (fee: $3.00)
+    --> Ruthless Records  (fee: $2.60)
+    --> OVO Sound  (fee: $2.80)
+    --> Cactus Jack  (fee: $2.50)
+    --> AWGE  (fee: $2.20)
+    --> Blonded  (fee: $3.00)
+    --> Ruthless Records  (fee: $2.60)
+    --> OVO Sound  (fee: $2.80)
+    --> Cactus Jack  (fee: $2.50)
+    --> AWGE  (fee: $2.20)
+    --> Blonded  (fee: $3.00)
+    --> Ruthless Records  (fee: $2.60)
+    --> OVO Sound  (fee: $2.80)
+    --> Cactus Jack  (fee: $2.50)
+    --> AWGE  (fee: $2.20)
+    --> Blonded  (fee: $3.00)
+    --> Ruthless Records  (fee: $2.60)
+    --> OVO Sound  (fee: $2.80)
+    --> Cactus Jack  (fee: $2.50)
+    --> AWGE  (fee: $2.20)
+    --> Blonded  (fee: $3.00)
+    --> Ruthless Records  (fee: $2.60)
+    --> OVO Sound  (fee: $2.80)
+    --> Cactus Jack  (fee: $2.50)
+    --> AWGE  (fee: $2.20)
+    --> Blonded  (fee: $3.00)
+    --> Ruthless Records  (fee: $2.60)
+    --> OVO Sound  (fee: $2.80)
+    --> Cactus Jack  (fee: $2.50)
+    --> AWGE  (fee: $2.20)
+    --> Blonded  (fee: $3.00)
+    --> Ruthless Records  (fee: $2.60)
+    --> OVO Sound  (fee: $2.80)
+    --> Cactus Jack  (fee: $2.50)
+    --> AWGE  (fee: $2.20)
+    --> Blonded  (fee: $3.00)
+    --> Ruthless Records  (fee: $2.60)
+    --> OVO Sound  (fee: $2.80)
+    --> Cactus Jack  (fee: $2.50)
+    --> AWGE  (fee: $2.20)
+    --> Blonded  (fee: $3.00)
+    --> Ruthless Records  (fee: $2.60)
+  J. Cole
+  JID
+  Kendrick Lamar
+  OVO Sound
+    --> Drake  (fee: $1.00)
+    --> Drake  (fee: $1.00)
+    --> Drake  (fee: $1.00)
+    --> Drake  (fee: $1.00)
+    --> Drake  (fee: $1.00)
+    --> Drake  (fee: $1.00)
+    --> Drake  (fee: $1.00)
+    --> Drake  (fee: $1.00)
+    --> Drake  (fee: $1.00)
+  Ruthless Records
+    --> Eazy-E  (fee: $0.70)
+    --> Eazy-E  (fee: $0.70)
+    --> Eazy-E  (fee: $0.70)
+    --> Eazy-E  (fee: $0.70)
+    --> Eazy-E  (fee: $0.70)
+    --> Eazy-E  (fee: $0.70)
+    --> Eazy-E  (fee: $0.70)
+    --> Eazy-E  (fee: $0.70)
+    --> Eazy-E  (fee: $0.70)
+  Spotify
+    --> OVO Sound  (fee: $2.50)
+    --> TDE  (fee: $3.20)
+    --> Dreamville  (fee: $2.90)
+    --> AWGE  (fee: $2.70)
+    --> Cactus Jack  (fee: $2.40)
+    --> Blonded  (fee: $4.10)
+    --> Ruthless Records  (fee: $3.40)
+    --> Global Rights Hub  (fee: $1.80)
+    --> OVO Sound  (fee: $2.50)
+    --> TDE  (fee: $3.20)
+    --> Dreamville  (fee: $2.90)
+    --> AWGE  (fee: $2.70)
+    --> Cactus Jack  (fee: $2.40)
+    --> Blonded  (fee: $4.10)
+    --> Ruthless Records  (fee: $3.40)
+    --> Global Rights Hub  (fee: $1.80)
+    --> OVO Sound  (fee: $2.50)
+    --> TDE  (fee: $3.20)
+    --> Dreamville  (fee: $2.90)
+    --> AWGE  (fee: $2.70)
+    --> Cactus Jack  (fee: $2.40)
+    --> Blonded  (fee: $4.10)
+    --> Ruthless Records  (fee: $3.40)
+    --> Global Rights Hub  (fee: $1.80)
+    --> OVO Sound  (fee: $2.50)
+    --> TDE  (fee: $3.20)
+    --> Dreamville  (fee: $2.90)
+    --> AWGE  (fee: $2.70)
+    --> Cactus Jack  (fee: $2.40)
+    --> Blonded  (fee: $4.10)
+    --> Ruthless Records  (fee: $3.40)
+    --> Global Rights Hub  (fee: $1.80)
+    --> OVO Sound  (fee: $2.50)
+    --> TDE  (fee: $3.20)
+    --> Dreamville  (fee: $2.90)
+    --> AWGE  (fee: $2.70)
+    --> Cactus Jack  (fee: $2.40)
+    --> Blonded  (fee: $4.10)
+    --> Ruthless Records  (fee: $3.40)
+    --> Global Rights Hub  (fee: $1.80)
+    --> OVO Sound  (fee: $2.50)
+    --> TDE  (fee: $3.20)
+    --> Dreamville  (fee: $2.90)
+    --> AWGE  (fee: $2.70)
+    --> Cactus Jack  (fee: $2.40)
+    --> Blonded  (fee: $4.10)
+    --> Ruthless Records  (fee: $3.40)
+    --> Global Rights Hub  (fee: $1.80)
+    --> OVO Sound  (fee: $2.50)
+    --> TDE  (fee: $3.20)
+    --> Dreamville  (fee: $2.90)
+    --> AWGE  (fee: $2.70)
+    --> Cactus Jack  (fee: $2.40)
+    --> Blonded  (fee: $4.10)
+    --> Ruthless Records  (fee: $3.40)
+    --> Global Rights Hub  (fee: $1.80)
+    --> OVO Sound  (fee: $2.50)
+    --> TDE  (fee: $3.20)
+    --> Dreamville  (fee: $2.90)
+    --> AWGE  (fee: $2.70)
+    --> Cactus Jack  (fee: $2.40)
+    --> Blonded  (fee: $4.10)
+    --> Ruthless Records  (fee: $3.40)
+    --> Global Rights Hub  (fee: $1.80)
+    --> OVO Sound  (fee: $2.50)
+    --> TDE  (fee: $3.20)
+    --> Dreamville  (fee: $2.90)
+    --> AWGE  (fee: $2.70)
+    --> Cactus Jack  (fee: $2.40)
+    --> Blonded  (fee: $4.10)
+    --> Ruthless Records  (fee: $3.40)
+    --> Global Rights Hub  (fee: $1.80)
+  TDE
+    --> Kendrick Lamar  (fee: $1.20)
+    --> Kendrick Lamar  (fee: $1.20)
+    --> Kendrick Lamar  (fee: $1.20)
+    --> Kendrick Lamar  (fee: $1.20)
+    --> Kendrick Lamar  (fee: $1.20)
+    --> Kendrick Lamar  (fee: $1.20)
+    --> Kendrick Lamar  (fee: $1.20)
+    --> Kendrick Lamar  (fee: $1.20)
+    --> Kendrick Lamar  (fee: $1.20)
+  Travis Scott
+  YouTube Music
+    --> Dreamville  (fee: $1.80)
+    --> TDE  (fee: $2.30)
+    --> AWGE  (fee: $2.10)
+    --> Blonded  (fee: $1.70)
+    --> Cactus Jack  (fee: $2.20)
+    --> Global Rights Hub  (fee: $2.50)
+    --> Dreamville  (fee: $1.80)
+    --> TDE  (fee: $2.30)
+    --> AWGE  (fee: $2.10)
+    --> Blonded  (fee: $1.70)
+    --> Cactus Jack  (fee: $2.20)
+    --> Global Rights Hub  (fee: $2.50)
+    --> Dreamville  (fee: $1.80)
+    --> TDE  (fee: $2.30)
+    --> AWGE  (fee: $2.10)
+    --> Blonded  (fee: $1.70)
+    --> Cactus Jack  (fee: $2.20)
+    --> Global Rights Hub  (fee: $2.50)
+    --> Dreamville  (fee: $1.80)
+    --> TDE  (fee: $2.30)
+    --> AWGE  (fee: $2.10)
+    --> Blonded  (fee: $1.70)
+    --> Cactus Jack  (fee: $2.20)
+    --> Global Rights Hub  (fee: $2.50)
+    --> Dreamville  (fee: $1.80)
+    --> TDE  (fee: $2.30)
+    --> AWGE  (fee: $2.10)
+    --> Blonded  (fee: $1.70)
+    --> Cactus Jack  (fee: $2.20)
+    --> Global Rights Hub  (fee: $2.50)
+    --> Dreamville  (fee: $1.80)
+    --> TDE  (fee: $2.30)
+    --> AWGE  (fee: $2.10)
+    --> Blonded  (fee: $1.70)
+    --> Cactus Jack  (fee: $2.20)
+    --> Global Rights Hub  (fee: $2.50)
+    --> Dreamville  (fee: $1.80)
+    --> TDE  (fee: $2.30)
+    --> AWGE  (fee: $2.10)
+    --> Blonded  (fee: $1.70)
+    --> Cactus Jack  (fee: $2.20)
+    --> Global Rights Hub  (fee: $2.50)
+    --> Dreamville  (fee: $1.80)
+    --> TDE  (fee: $2.30)
+    --> AWGE  (fee: $2.10)
+    --> Blonded  (fee: $1.70)
+    --> Cactus Jack  (fee: $2.20)
+    --> Global Rights Hub  (fee: $2.50)
+    --> Dreamville  (fee: $1.80)
+    --> TDE  (fee: $2.30)
+    --> AWGE  (fee: $2.10)
+    --> Blonded  (fee: $1.70)
+    --> Cactus Jack  (fee: $2.20)
+    --> Global Rights Hub  (fee: $2.50)
+
+  [7/8] Dijkstra — Cheapest Routes
+
+  +-----------------------------------------------------+
+  |  ROUTING  |  Algorithm: DIJKSTRA (Min-Cost Path)   |
+  +-----------------------------------------------------+
+  Spotify --> Drake  |  Cheapest total fee: $3.50
+  Route: Spotify -> OVO Sound -> Drake
+
+  +-----------------------------------------------------+
+  |  ROUTING  |  Algorithm: DIJKSTRA (Min-Cost Path)   |
+  +-----------------------------------------------------+
+  YouTube Music --> Frank Ocean  |  Cheapest total fee: $2.45
+  Route: YouTube Music -> Blonded -> Frank Ocean
+
+  [8/8] Huffman — Asset Compression
+
+  +-----------------------------------------------------+
+  |  COMPRESSION  |  Algorithm: HUFFMAN CODING        |
+  +-----------------------------------------------------+
+  Input: "Drake Gods Plan OVO Sound digital license asset"
+  Original size: 376 bits (8 bits/char)
+
+  Character codes:
+    'S' -> 111111
+    'c' -> 111110
+    't' -> 11110
+    'G' -> 110111
+    'u' -> 110110
+    'V' -> 110100
+    'a' -> 1100
+    'e' -> 1110
+    ' ' -> 101
+    'n' -> 1001
+    'd' -> 1000
+    'l' -> 0111
+    'i' -> 0110
+    's' -> 010
+    'P' -> 110101
+    'g' -> 00110
+    'k' -> 00101
+    'r' -> 00111
+    'D' -> 00100
+    'O' -> 0001
+    'o' -> 0000
+
+  Compressed: 195 bits
+  Space saved: 48.1%

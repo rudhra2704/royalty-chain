@@ -1,0 +1,41 @@
+
+  +-----------------------------------------------------+
+  |  LICENSE REGISTRY  |  Data Structure: B+ TREE      |
+  +-----------------------------------------------------+
+  Disk-backed index | Operations: insert, search, scan
+
+  [LIC-001] God's Plan - Drake
+       Publisher: OVO Sound  |  Royalty: 19%
+  [LIC-002] HUMBLE. - Kendrick Lamar
+       Publisher: TDE  |  Royalty: 16%
+  [LIC-003] No Role Modelz - J. Cole
+       Publisher: Dreamville  |  Royalty: 12%
+  [LIC-004] 151 Rum - JID
+       Publisher: Dreamville  |  Royalty: 8%
+  [LIC-005] Surround Sound - JID
+       Publisher: Dreamville  |  Royalty: 9%
+  [LIC-006] Middle Child - J. Cole
+       Publisher: Dreamville  |  Royalty: 13%
+  [LIC-007] Alright - Kendrick Lamar
+       Publisher: TDE  |  Royalty: 15%
+  [LIC-008] Hotline Bling - Drake
+       Publisher: OVO Sound  |  Royalty: 18%
+  [LIC-009] Praise The Lord - ASAP Rocky
+       Publisher: AWGE  |  Royalty: 11%
+  [LIC-010] L$D - ASAP Rocky
+       Publisher: AWGE  |  Royalty: 7%
+  [LIC-011] SICKO MODE - Travis Scott
+       Publisher: Cactus Jack  |  Royalty: 17%
+  [LIC-012] goosebumps - Travis Scott
+       Publisher: Cactus Jack  |  Royalty: 14%
+  [LIC-013] Thinkin Bout You - Frank Ocean
+       Publisher: Blonded  |  Royalty: 22%
+  [LIC-014] Nights - Frank Ocean
+       Publisher: Blonded  |  Royalty: 21%
+  [LIC-015] Boyz-N-The-Hood - Eazy-E
+       Publisher: Ruthless Records  |  Royalty: 6%
+  [LIC-016] Real Muthaphuckkin G's - Eazy-E
+       Publisher: Ruthless Records  |  Royalty: 5%
+
+  >> Found: God's Plan by Drake | Royalty: 19%
+  Registry saved to data/licenses.dat

@@ -1,0 +1,59 @@
+# RoyaltyChain - Sample Menu Input
+# Run: ./royaltychain
+# Then enter each line below when prompted (one per prompt)
+
+# --- Full Demo (all 8 data structures) ---
+9
+0
+
+# --- Individual module tests ---
+
+# [1] License Registry - view all + search LIC-001
+# 1
+# LIC-001
+# 0
+
+# [2] Revocation Log - view stack + rollback
+# 2
+# 1
+# 0
+
+# [3] Transfer Queue - view + process all
+# 3
+# 1
+# 0
+
+# [4] Key Ledger - verify active account
+# 4
+# ACC-DRAKE
+# 0
+
+# [4] Key Ledger - verify revoked account
+# 4
+# ACC-ROCKY
+# 0
+
+# [5] Trade Rankings (Max-Heap)
+# 5
+# 0
+
+# [6] Royalty Channels (Graph)
+# 6
+# 0
+
+# [7] Dijkstra - Spotify to Drake (case-insensitive)
+# 7
+# spotify
+# drake
+# 0
+
+# [7] Dijkstra - YouTube Music to Frank Ocean
+# 7
+# youtube music
+# frank ocean
+# 0
+
+# [8] Huffman Compression
+# 8
+# Drake Gods Plan OVO Sound digital license asset
+# 0

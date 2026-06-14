@@ -1,0 +1,19 @@
+# Sample Account Keys (Hash Table - Option 4)
+# Format: accountId | publicKey | artistName | status
+
+ACC-DRAKE    | PK-DRK-7X9F | Drake                  | ACTIVE
+ACC-KENDRICK | PK-KDL-3M2A | Kendrick Lamar         | ACTIVE
+ACC-JCOLE    | PK-JCL-8B4E | J. Cole                | ACTIVE
+ACC-JID      | PK-JID-1C6D | JID                    | ACTIVE
+ACC-ROCKY    | PK-ROK-4A7B | ASAP Rocky             | REVOKED
+ACC-TRAVIS   | PK-TRV-6E2C | Travis Scott           | ACTIVE
+ACC-FRANK    | PK-FRK-9D5H | Frank Ocean            | ACTIVE
+ACC-EAZYE    | PK-EZE-2F8K | Eazy-E (Estate)        | REVOKED
+ACC-OVO      | PK-OVO-5H8G | OVO Sound              | ACTIVE
+ACC-TDE      | PK-TDE-9K3J | TDE                    | REVOKED
+ACC-AWGE     | PK-AWG-3N1P | AWGE                   | ACTIVE
+ACC-CACTUS   | PK-CJK-7R4M | Cactus Jack            | ACTIVE
+ACC-BLONDED  | PK-BLD-2Q7N | Blonded                | REVOKED
+ACC-RUTHLESS | PK-RTH-8W1X | Ruthless Records       | ACTIVE
+
+# Try verifying: ACC-DRAKE (active) or ACC-ROCKY (revoked)

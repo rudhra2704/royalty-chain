@@ -1,0 +1,32 @@
+
+  +-----------------------------------------------------+
+  |  COMPRESSION  |  Algorithm: HUFFMAN CODING        |
+  +-----------------------------------------------------+
+  Input: "Drake Gods Plan OVO Sound digital license asset"
+  Original size: 376 bits (8 bits/char)
+
+  Character codes:
+    'S' -> 111111
+    'c' -> 111110
+    't' -> 11110
+    'G' -> 110111
+    'u' -> 110110
+    'V' -> 110100
+    'a' -> 1100
+    'e' -> 1110
+    ' ' -> 101
+    'n' -> 1001
+    'l' -> 0111
+    'i' -> 0110
+    's' -> 010
+    'k' -> 00101
+    'D' -> 00100
+    'r' -> 00111
+    'P' -> 110101
+    'g' -> 00110
+    'O' -> 0001
+    'd' -> 1000
+    'o' -> 0000
+
+  Compressed: 195 bits
+  Space saved: 48.1%

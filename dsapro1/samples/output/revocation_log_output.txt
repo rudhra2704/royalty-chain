@@ -1,0 +1,62 @@
+
+  +-----------------------------------------------------+
+  |  REVOCATION LOG  |  Data Structure: STACK (LIFO)  |
+  +-----------------------------------------------------+
+  Operations: push() = log clearance | rollback() = pop()
+
+  1. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  2. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  3. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  4. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  5. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  6. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  7. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  8. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  9. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  10. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  11. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  12. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  13. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  14. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  15. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  16. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  17. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  18. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  19. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  20. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  21. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  22. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  23. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  24. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+
+  >> Rolling back most recent clearance (pop)...
+  Rolled back: APPROVED (CLR-112)
+
+  +-----------------------------------------------------+
+  |  REVOCATION LOG  |  Data Structure: STACK (LIFO)  |
+  +-----------------------------------------------------+
+  Operations: push() = log clearance | rollback() = pop()
+
+  1. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  2. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  3. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  4. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  5. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  6. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  7. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  8. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  9. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  10. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  11. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)
+  12. [CLR-112] APPROVED - BMI -> LIC-012 (2025-06-14)
+  13. [CLR-111] VERIFIED - SoundExchange -> LIC-007 (2025-06-12)
+  14. [CLR-110] REVOKED - BMI -> LIC-010 (2025-06-10)
+  15. [CLR-109] FLAGGED - ASCAP -> LIC-015 (2025-06-08)
+  16. [CLR-108] APPROVED - SoundExchange -> LIC-013 (2025-06-01)
+  17. [CLR-107] VERIFIED - BMI -> LIC-011 (2025-05-18)
+  18. [CLR-106] APPROVED - ASCAP -> LIC-009 (2025-05-12)
+  19. [CLR-105] REVOKED - BMI -> LIC-005 (2025-05-01)
+  20. [CLR-104] FLAGGED - ASCAP -> LIC-004 (2025-04-05)
+  21. [CLR-103] APPROVED - SoundExchange -> LIC-003 (2025-03-10)
+  22. [CLR-102] VERIFIED - BMI -> LIC-002 (2025-02-20)
+  23. [CLR-101] APPROVED - ASCAP -> LIC-001 (2025-01-15)

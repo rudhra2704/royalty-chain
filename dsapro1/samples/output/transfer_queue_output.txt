@@ -1,0 +1,81 @@
+
+  +-----------------------------------------------------+
+  |  TRANSFER QUEUE  |  Data Structure: QUEUE (FIFO)   |
+  +-----------------------------------------------------+
+  Operations: enqueue() = add back | processNext() = serve front
+
+  1. [TXN-001] God's Plan: OVO Sound -> Spotify (PENDING)
+  2. [TXN-002] HUMBLE.: TDE -> Apple Music (PENDING)
+  3. [TXN-003] No Role Modelz: Dreamville -> YouTube Music (PENDING)
+  4. [TXN-004] 151 Rum: Dreamville -> Amazon Music (PENDING)
+  5. [TXN-005] Hotline Bling: OVO Sound -> Spotify (PENDING)
+  6. [TXN-006] Praise The Lord: AWGE -> Apple Music (PENDING)
+  7. [TXN-007] SICKO MODE: Cactus Jack -> Spotify (PENDING)
+  8. [TXN-008] Thinkin Bout You: Blonded -> YouTube Music (PENDING)
+  9. [TXN-009] Boyz-N-The-Hood: Ruthless Records -> Amazon Music (PENDING)
+  10. [TXN-010] goosebumps: Cactus Jack -> Spotify (PENDING)
+  11. [TXN-011] Nights: Blonded -> Apple Music (PENDING)
+  12. [TXN-012] Real Muthaphuckkin G's: Ruthless Records -> Amazon Music (PENDING)
+  13. [TXN-001] God's Plan: OVO Sound -> Spotify (PENDING)
+  14. [TXN-002] HUMBLE.: TDE -> Apple Music (PENDING)
+  15. [TXN-003] No Role Modelz: Dreamville -> YouTube Music (PENDING)
+  16. [TXN-004] 151 Rum: Dreamville -> Amazon Music (PENDING)
+  17. [TXN-005] Hotline Bling: OVO Sound -> Spotify (PENDING)
+  18. [TXN-006] Praise The Lord: AWGE -> Apple Music (PENDING)
+  19. [TXN-007] SICKO MODE: Cactus Jack -> Spotify (PENDING)
+  20. [TXN-008] Thinkin Bout You: Blonded -> YouTube Music (PENDING)
+  21. [TXN-009] Boyz-N-The-Hood: Ruthless Records -> Amazon Music (PENDING)
+  22. [TXN-010] goosebumps: Cactus Jack -> Spotify (PENDING)
+  23. [TXN-011] Nights: Blonded -> Apple Music (PENDING)
+  24. [TXN-012] Real Muthaphuckkin G's: Ruthless Records -> Amazon Music (PENDING)
+  25. [TXN-001] God's Plan: OVO Sound -> Spotify (PENDING)
+  26. [TXN-002] HUMBLE.: TDE -> Apple Music (PENDING)
+  27. [TXN-003] No Role Modelz: Dreamville -> YouTube Music (PENDING)
+  28. [TXN-004] 151 Rum: Dreamville -> Amazon Music (PENDING)
+  29. [TXN-005] Hotline Bling: OVO Sound -> Spotify (PENDING)
+  30. [TXN-006] Praise The Lord: AWGE -> Apple Music (PENDING)
+  31. [TXN-007] SICKO MODE: Cactus Jack -> Spotify (PENDING)
+  32. [TXN-008] Thinkin Bout You: Blonded -> YouTube Music (PENDING)
+  33. [TXN-009] Boyz-N-The-Hood: Ruthless Records -> Amazon Music (PENDING)
+  34. [TXN-010] goosebumps: Cactus Jack -> Spotify (PENDING)
+  35. [TXN-011] Nights: Blonded -> Apple Music (PENDING)
+  36. [TXN-012] Real Muthaphuckkin G's: Ruthless Records -> Amazon Music (PENDING)
+
+--- Processing Transfer Queue ---
+  Processed: TXN-001 - God's Plan transferred from OVO Sound to Spotify
+  Processed: TXN-002 - HUMBLE. transferred from TDE to Apple Music
+  Processed: TXN-003 - No Role Modelz transferred from Dreamville to YouTube Music
+  Processed: TXN-004 - 151 Rum transferred from Dreamville to Amazon Music
+  Processed: TXN-005 - Hotline Bling transferred from OVO Sound to Spotify
+  Processed: TXN-006 - Praise The Lord transferred from AWGE to Apple Music
+  Processed: TXN-007 - SICKO MODE transferred from Cactus Jack to Spotify
+  Processed: TXN-008 - Thinkin Bout You transferred from Blonded to YouTube Music
+  Processed: TXN-009 - Boyz-N-The-Hood transferred from Ruthless Records to Amazon Music
+  Processed: TXN-010 - goosebumps transferred from Cactus Jack to Spotify
+  Processed: TXN-011 - Nights transferred from Blonded to Apple Music
+  Processed: TXN-012 - Real Muthaphuckkin G's transferred from Ruthless Records to Amazon Music
+  Processed: TXN-001 - God's Plan transferred from OVO Sound to Spotify
+  Processed: TXN-002 - HUMBLE. transferred from TDE to Apple Music
+  Processed: TXN-003 - No Role Modelz transferred from Dreamville to YouTube Music
+  Processed: TXN-004 - 151 Rum transferred from Dreamville to Amazon Music
+  Processed: TXN-005 - Hotline Bling transferred from OVO Sound to Spotify
+  Processed: TXN-006 - Praise The Lord transferred from AWGE to Apple Music
+  Processed: TXN-007 - SICKO MODE transferred from Cactus Jack to Spotify
+  Processed: TXN-008 - Thinkin Bout You transferred from Blonded to YouTube Music
+  Processed: TXN-009 - Boyz-N-The-Hood transferred from Ruthless Records to Amazon Music
+  Processed: TXN-010 - goosebumps transferred from Cactus Jack to Spotify
+  Processed: TXN-011 - Nights transferred from Blonded to Apple Music
+  Processed: TXN-012 - Real Muthaphuckkin G's transferred from Ruthless Records to Amazon Music
+  Processed: TXN-001 - God's Plan transferred from OVO Sound to Spotify
+  Processed: TXN-002 - HUMBLE. transferred from TDE to Apple Music
+  Processed: TXN-003 - No Role Modelz transferred from Dreamville to YouTube Music
+  Processed: TXN-004 - 151 Rum transferred from Dreamville to Amazon Music
+  Processed: TXN-005 - Hotline Bling transferred from OVO Sound to Spotify
+  Processed: TXN-006 - Praise The Lord transferred from AWGE to Apple Music
+  Processed: TXN-007 - SICKO MODE transferred from Cactus Jack to Spotify
+  Processed: TXN-008 - Thinkin Bout You transferred from Blonded to YouTube Music
+  Processed: TXN-009 - Boyz-N-The-Hood transferred from Ruthless Records to Amazon Music
+  Processed: TXN-010 - goosebumps transferred from Cactus Jack to Spotify
+  Processed: TXN-011 - Nights transferred from Blonded to Apple Music
+  Processed: TXN-012 - Real Muthaphuckkin G's transferred from Ruthless Records to Amazon Music
+  Total processed: 36

@@ -1,0 +1,17 @@
+# Sample Dijkstra Routing Queries (Option 7)
+# Format: source_platform | destination_artist
+# Names are case-insensitive
+
+spotify              | drake
+spotify              | travis scott
+apple music          | asap rocky
+youtube music        | frank ocean
+amazon music         | eazy-e
+spotify              | kendrick lamar
+apple music          | jid
+
+# Expected cheapest routes (approximate):
+# spotify -> drake           : Spotify -> OVO Sound -> Drake ($3.50)
+# spotify -> travis scott    : Spotify -> Cactus Jack -> Travis Scott ($3.35)
+# youtube music -> frank ocean : YouTube Music -> Blonded -> Frank Ocean ($2.45)
+# amazon music -> eazy-e     : Amazon Music -> Ruthless Records -> Eazy-E ($2.30)

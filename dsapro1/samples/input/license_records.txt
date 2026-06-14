@@ -1,0 +1,20 @@
+# Sample License Records (loaded automatically at startup)
+# Format: licenseId | title | artist | publisher | royaltyRate
+# Stored in B+ Tree and persisted to data/licenses.dat
+
+LIC-001 | God's Plan              | Drake          | OVO Sound        | 0.19
+LIC-002 | HUMBLE.                 | Kendrick Lamar | TDE              | 0.16
+LIC-003 | No Role Modelz          | J. Cole        | Dreamville       | 0.12
+LIC-004 | 151 Rum                 | JID            | Dreamville       | 0.08
+LIC-005 | Surround Sound          | JID            | Dreamville       | 0.09
+LIC-006 | Middle Child            | J. Cole        | Dreamville       | 0.13
+LIC-007 | Alright                 | Kendrick Lamar | TDE              | 0.15
+LIC-008 | Hotline Bling           | Drake          | OVO Sound        | 0.18
+LIC-009 | Praise The Lord         | ASAP Rocky     | AWGE             | 0.11
+LIC-010 | L$D                     | ASAP Rocky     | AWGE             | 0.07
+LIC-011 | SICKO MODE              | Travis Scott   | Cactus Jack      | 0.17
+LIC-012 | goosebumps              | Travis Scott   | Cactus Jack      | 0.14
+LIC-013 | Thinkin Bout You        | Frank Ocean    | Blonded          | 0.22
+LIC-014 | Nights                  | Frank Ocean    | Blonded          | 0.21
+LIC-015 | Boyz-N-The-Hood         | Eazy-E         | Ruthless Records | 0.06
+LIC-016 | Real Muthaphuckkin G's  | Eazy-E         | Ruthless Records | 0.05

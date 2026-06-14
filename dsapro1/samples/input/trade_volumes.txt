@@ -1,0 +1,21 @@
+# Sample Trade Rankings (Max-Heap - Option 5)
+# Format: trackTitle | artist | transactionVolume | avgPrice | tier
+
+God's Plan             | Drake          | 8420000 | 2.49 | PLATINUM
+SICKO MODE             | Travis Scott   | 6150000 | 2.29 | PLATINUM
+Hotline Bling          | Drake          | 4890000 | 1.99 | GOLD
+HUMBLE.                | Kendrick Lamar | 3720000 | 1.89 | GOLD
+goosebumps             | Travis Scott   | 2940000 | 2.19 | GOLD
+Praise The Lord        | ASAP Rocky     | 1680000 | 1.49 | SILVER
+No Role Modelz         | J. Cole        | 1420000 | 1.29 | SILVER
+Thinkin Bout You       | Frank Ocean    | 1210000 | 1.79 | SILVER
+Middle Child           | J. Cole        |  980000 | 1.29 | SILVER
+L$D                    | ASAP Rocky     |  740000 | 0.99 | SILVER
+Surround Sound         | JID            |  620000 | 1.29 | SILVER
+Alright                | Kendrick Lamar |  510000 | 1.29 | SILVER
+Nights                 | Frank Ocean    |  385000 | 1.59 | CATALOG
+151 Rum                | JID            |  290000 | 0.99 | CATALOG
+Boyz-N-The-Hood        | Eazy-E         |  156000 | 0.79 | CATALOG
+Real Muthaphuckkin G's | Eazy-E         |   47000 | 0.69 | CATALOG
+
+# Volume range: 47,000 (low) -> 8,420,000 (high)

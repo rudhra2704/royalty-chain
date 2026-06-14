@@ -1,0 +1,12 @@
+
+  +-----------------------------------------------------+
+  |  ROUTING  |  Algorithm: DIJKSTRA (Min-Cost Path)   |
+  +-----------------------------------------------------+
+  Spotify --> Drake  |  Cheapest total fee: $3.50
+  Route: Spotify -> OVO Sound -> Drake
+
+  +-----------------------------------------------------+
+  |  ROUTING  |  Algorithm: DIJKSTRA (Min-Cost Path)   |
+  +-----------------------------------------------------+
+  YouTube Music --> Frank Ocean  |  Cheapest total fee: $2.45
+  Route: YouTube Music -> Blonded -> Frank Ocean

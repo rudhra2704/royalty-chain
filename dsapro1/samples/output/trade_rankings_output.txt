@@ -1,0 +1,168 @@
+
+  +-----------------------------------------------------+
+  |  TRADE RANKINGS  |  Data Structure: MAX-HEAP       |
+  +-----------------------------------------------------+
+  Sorted by transaction volume (highest = root)
+
+  # 1 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 2 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 3 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 4 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 5 [PLATINUM] God's Plan - Drake
+       Vol: 8,420,000 streams  |  Avg: $2.49
+  # 6 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  # 7 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  # 8 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  # 9 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #10 [PLATINUM] SICKO MODE - Travis Scott
+       Vol: 6,150,000 streams  |  Avg: $2.29
+  #11 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #12 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #13 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #14 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #15 [GOLD] Hotline Bling - Drake
+       Vol: 4,890,000 streams  |  Avg: $1.99
+  #16 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #17 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #18 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #19 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #20 [GOLD] HUMBLE. - Kendrick Lamar
+       Vol: 3,720,000 streams  |  Avg: $1.89
+  #21 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #22 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #23 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #24 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #25 [GOLD] goosebumps - Travis Scott
+       Vol: 2,940,000 streams  |  Avg: $2.19
+  #26 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #27 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #28 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #29 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #30 [SILVER] Praise The Lord - ASAP Rocky
+       Vol: 1,680,000 streams  |  Avg: $1.49
+  #31 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #32 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #33 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #34 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #35 [SILVER] No Role Modelz - J. Cole
+       Vol: 1,420,000 streams  |  Avg: $1.29
+  #36 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #37 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #38 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #39 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #40 [SILVER] Thinkin Bout You - Frank Ocean
+       Vol: 1,210,000 streams  |  Avg: $1.79
+  #41 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #42 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #43 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #44 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #45 [SILVER] Middle Child - J. Cole
+       Vol: 980,000 streams  |  Avg: $1.29
+  #46 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #47 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #48 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #49 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #50 [SILVER] L$D - ASAP Rocky
+       Vol: 740,000 streams  |  Avg: $0.99
+  #51 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #52 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #53 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #54 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #55 [SILVER] Surround Sound - JID
+       Vol: 620,000 streams  |  Avg: $1.29
+  #56 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #57 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #58 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #59 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #60 [SILVER] Alright - Kendrick Lamar
+       Vol: 510,000 streams  |  Avg: $1.29
+  #61 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #62 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #63 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #64 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #65 [CATALOG] Nights - Frank Ocean
+       Vol: 385,000 streams  |  Avg: $1.59
+  #66 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #67 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #68 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #69 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #70 [CATALOG] 151 Rum - JID
+       Vol: 290,000 streams  |  Avg: $0.99
+  #71 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #72 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #73 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #74 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #75 [CATALOG] Boyz-N-The-Hood - Eazy-E
+       Vol: 156,000 streams  |  Avg: $0.79
+  #76 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #77 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #78 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #79 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+  #80 [CATALOG] Real Muthaphuckkin G's - Eazy-E
+       Vol: 47,000 streams  |  Avg: $0.69
+
+  Range: 47,000 (low) -> 8,420,000 (high)
